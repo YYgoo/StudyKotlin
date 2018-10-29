@@ -9,7 +9,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:id="@+id/tv_id"/>
+        android:id="@+id/tv_username"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2607401"
+        android:id="@+id/tv_password"/>
+
+
 
     <Button
         android:layout_width="match_parent"
@@ -25,5 +32,23 @@
         android:id="@+id/but_long_id"
         />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_baidu"
+        android:visibility="gone"
+        />
+    <com.example.a44323.studykotlin.ui.view.MoveImage
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/move_image"
+        android:src="@mipmap/ic_launcher_round"
+        android:visibility="gone"
+        />
+    <com.example.a44323.studykotlin.ui.view.ScrollRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_move_delete"
+        ></com.example.a44323.studykotlin.ui.view.ScrollRecyclerView>
 
 </LinearLayout>

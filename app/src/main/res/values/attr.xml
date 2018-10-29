@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SimpleView">
+
+        <attr name="progress" format="integer"/>
+
+        <attr name="bgcolor" format="color"/>
+
+        <attr name="procolor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
