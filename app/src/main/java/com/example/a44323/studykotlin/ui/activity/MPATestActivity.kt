@@ -1,7 +1,6 @@
 package com.example.a44323.studykotlin.ui.activity
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import com.example.a44323.studykotlin.R
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineDataSet
