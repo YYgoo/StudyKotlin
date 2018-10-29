@@ -72,7 +72,7 @@ class MainActivity : BaseActivity(), IUserView {
         mServiceIntent = Intent(this, BackService::class.java)
 
         list = mutableListOf<String>()
-        for (i in 1..10){
+        for (i in 1..101){
             list!!.add("第"+i+"项")
         }
         mAdapter = TestRecyclerAdapter(list!!)
